@@ -91,13 +91,20 @@
   }
   .min-border {
     border-left: 5px solid goldenrod;
-    padding-left: 7px;
+    padding-left: 10px;
   }
   .Business-model-img {
     width: 110px;
     height: 90px;
     margin-left: 0px;
     padding-right: 15px;
+    margin-top: 50px;
+  }
+  .Business-model-h1 {
+    width: 90%;
+  }
+  .Business-model-1 {
+    width: 400px;
   }
 
   /* .Sustainable style */
@@ -112,7 +119,7 @@
     background-image: url(/img/download.jfif);
     background-size: auto;
     margin-top: 100px;
-    width: 444px;
+    width: 404px;
     height: 225px;
     border-radius: 5px;
   }
@@ -124,7 +131,7 @@
     top: 100px;
   }
   .Sustainable-bottom {
-    width: 444px;
+    width: 404px;
     height: 360px;
     background-color: seagreen;
     display: block;
@@ -161,14 +168,15 @@
 
   .Connect-wallet {
     width: 400px;
-    height: 720px;
+    height: 890px;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
     margin-top: 10px;
   }
   .Connect-wallet-top {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
 
     width: 410px;
     height: 250px;
@@ -185,11 +193,12 @@
     height: 350px;
     /* margin-left: 50px; */
     position: relative;
-    bottom: 600px;
+    /* bottom: 600px; */
   }
   .Connect-wallet-bottom {
-    width: 430px;
+    width: 400px;
     height: 200px;
+    margin-top: 20px;
   }
   .Connect-wallet-bottom-bott {
     border-bottom: none;
@@ -239,14 +248,14 @@
   .data-table {
     background-color: darkgreen;
     width: 400px;
-    height: 717px;
+    height: 817px;
     color: white;
     border-radius: 5px;
   }
   .table-width {
     width: 80px;
   }
-  .table-1 {
+  /* .table-1 {
     display: flex;
     width: 414px;
     height: 50px;
@@ -316,7 +325,7 @@
     display: flex;
     position: relative;
     right: 85px;
-  }
+  } */
   .table-bottom-li-1 {
     font-size: 1.1rem;
     margin-top: 20px;
